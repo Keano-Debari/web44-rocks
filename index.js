@@ -20,6 +20,6 @@ server.use('*', (req, res) => {
     res.json({ message: 'web 44 is awesome indeed'})
 })
 
-server.listen(5000, () => { // heroku machine uses a different port
-    console.log(`listening on ${5000}`)
+server.listen(PORT, () => { // heroku machine uses a different port
+    console.log(`listening on ${PORT}`)
 })
